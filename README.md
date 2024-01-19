@@ -1,7 +1,4 @@
 # p1a3_script
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/eagleoflqj/p1a3_script.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/eagleoflqj/p1a3_script/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/eagleoflqj/p1a3_script.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/eagleoflqj/p1a3_script/context:javascript)
-  
 一亩三分地的油猴脚本
 # 安装
 ## 自动（推荐）
@@ -48,7 +45,7 @@ Greasy Fork已停更，请删除并切换为自动安装
 ### 重置筛选条件
 ## Doing
 ### 自动答题
-题库维护中，目前共有187题  
+题库维护中，目前共有194题  
 成功答题或题目不在题库，console会有提示
 # QQ群
 652122176  
