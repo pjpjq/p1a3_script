@@ -89,7 +89,7 @@
         const panel = document.querySelector('.col-span-12');
         setTimeout(() => {
             panel.querySelector('.grid-cols-5 .rounded-md.border:last-child').click();
-            // setInterval(() => panel.querySelector('.text-center > button').click(), 1000);
+            setTimeout(() => panel.querySelector('.text-center > button').click(), 1000);
         }, 1000);
     }
     if (url === 'https://www.1point3acres.com/next/daily-question') { // 自动答题页
@@ -113,8 +113,8 @@
             // 答案和选项取交集
             form.querySelectorAll('.mt-4 > div')
                 .forEach(option => answer_list
-                         .filter(answer => option.textContent.trim() === answer)
-                         .forEach(() => option_list.push(option)));
+                    .filter(answer => option.textContent.trim() === answer)
+                    .forEach(() => option_list.push(option)));
             if (!option_list.length) {
                 console.log(prompt);
                 return;
